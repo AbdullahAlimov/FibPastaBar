@@ -1,0 +1,9 @@
+.amountContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    & del{
+        margin-bottom: 5px;
+    }
+}

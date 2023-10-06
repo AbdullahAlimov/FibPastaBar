@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+
+    margin: 0 auto;
+}
+.transition {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: end;
+    align-items: center;
+}
+
+.shop {
+    justify-self: start;
+    & button{
+        color: #696F7A;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 28px;
+    
+        background-color: #fff;
+    }
+}
+@media (max-width: 620px){
+    .transition{
+        grid-template-columns: auto;
+        grid-template-rows:auto auto;
+        justify-items: center;
+        gap: 30px;
+    }
+    .shop{
+        grid-row: 2/3;
+        justify-self: center;
+    }
+}

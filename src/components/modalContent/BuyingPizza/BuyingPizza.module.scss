@@ -1,0 +1,255 @@
+.content {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: minmax(auto, 55%) minmax(45%, auto);
+    gap: 30px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    height: 500px;
+
+    position: relative;
+}
+
+.image {
+    transform: translate(2.2%, 3.3%);
+    transition: all ease 0.5s;
+
+    & img {
+        width: 100%;
+    }
+}
+
+.circle,
+.bigCircle {
+    width: 380px;
+    height: 380px;
+
+    border-radius: 100%;
+    border: 1px dashed #d4d4d4;
+    border-spacing: 100px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.bigCircle {
+    width: 450px;
+    height: 450px;
+}
+
+.infoContainer {
+    max-width: 340px;
+
+    position: relative;
+}
+
+.name {
+    grid-column: 1/3;
+
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+
+    margin-right: 20px;
+}
+
+.info {
+    color: #686466;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+
+    margin-right: 20px;
+}
+
+.doughButton,
+.sizeButton {
+    display: grid;
+    gap: 13px;
+
+    height: 45px;
+    width: 100%;
+
+    & input {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    input:checked+.button {
+        background-color: yellow;
+    }
+}
+
+.doughButton {
+    grid-template-columns: repeat(2, 1fr);
+
+    margin-bottom: 20px;
+}
+
+.sizeButton {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 10px;
+}
+
+.button,
+.buttonActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    border-radius: 8px;
+    background: #F3F3F7;
+
+    color: #828792;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.buttonActive {
+    background-color: #F7D22D;
+
+    color: #000;
+}
+
+.ingredientList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 13px;
+
+    width: 100%;
+    height: 300px;
+
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    & li:last-child {
+        margin-bottom: 50px;
+    }
+}
+
+.ingredientContainer,
+.ingredientContainerActive {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    height: 100%;
+
+    transform: translate(0, -16px);
+
+    transition: all ease 0.4s;
+}
+
+.ingredientContainerActive {
+    background-color: #fae68b;
+
+    .ingredientPrice {
+        color: #000
+    }
+}
+
+.ingredientName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 14px;
+}
+
+.ingredientPrice {
+    color: #F7D22D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+
+    margin-bottom: 17px;
+
+    transition: all ease 0.4s;
+}
+
+.shadow {
+    position: absolute;
+    top: calc(100% - 109px);
+    left: 0;
+
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(#ffffff00, #fff 80%);
+}
+
+@media(max-width:1024px) {
+    .content {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+    }
+
+    .imageContainer {
+        width: 350px;
+        height: 350px;
+
+        & .image {
+            transform: translate(3%, 2%);
+        }
+    }
+
+    .circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .bigCircle {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media(max-width:425px) {
+    .ingredientList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content {
+        width: 220px;
+    }
+
+    .imageContainer {
+        width: 220px;
+        height: 220px;
+
+        & .image {
+            transform: translate(3%, 2%);
+        }
+    }
+
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .bigCircle {
+        width: 220px;
+        height: 220px;
+    }
+    .button,.buttonActive{
+        font-size: 10px;
+    }
+}

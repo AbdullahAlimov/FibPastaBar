@@ -1,0 +1,22 @@
+.button {
+    width: 100%;
+    height: 100%;
+
+    background-color: #fff;
+
+    border-radius: 13px;
+    border: #E3ECF5 2px solid;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    overflow: hidden;
+
+    transition: all ease 0.4s;
+    &:hover{
+        border-color: #F7D22D;
+    }
+    &:active{
+        background-color: #fff1b3;
+    }
+}

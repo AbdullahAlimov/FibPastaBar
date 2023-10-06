@@ -1,0 +1,45 @@
+.container {
+    max-width: 1150px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+}
+
+.imageContainer {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 17px 20px;
+    }
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #F7D22D;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.text {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+
+    max-width: 400px;
+}

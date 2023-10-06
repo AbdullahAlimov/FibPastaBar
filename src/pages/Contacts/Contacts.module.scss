@@ -1,0 +1,45 @@
+.container {
+    max-width: 1150px;
+
+    padding: 0 20px;
+
+    margin: 0 auto;
+}
+
+.number {
+    color: #F7D22D;
+    font-size: 38px;
+    font-weight: 700;
+
+    margin: 45px 0 18px;
+}
+
+.adress {
+    font-size: 26px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.delivery {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+@media(max-width:425px){
+    .number {
+        font-size: 28px;
+    }
+    
+    .adress {
+        font-size: 18px;
+        font-weight: 700;
+    
+        margin-bottom: 10px;
+    }
+    
+    .delivery {
+        font-size: 12px;
+        font-weight: 600;
+    }
+}

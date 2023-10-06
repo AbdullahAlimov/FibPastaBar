@@ -1,0 +1,55 @@
+.stock {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    max-width: 350px;
+    height: 100%;
+
+    border-radius: 14px;
+
+    box-shadow: 0 3px 7px #0000004b;
+}
+
+.image {
+    width: 100%;
+    min-height: 180PX;
+
+    img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+}
+
+.info {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+
+    height: 100%;
+
+    padding: 15px 20px 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.description {
+    color: #797979;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+
+    height: 100%;
+}
+
+@media (max-width:620px) {
+    .stock {
+        max-width: 100%;
+    }
+}

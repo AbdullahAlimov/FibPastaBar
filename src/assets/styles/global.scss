@@ -1,0 +1,23 @@
+@import "reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding-top: 151px;
+}
+.App{
+    overflow: hidden;
+}
+
+@media(max-width:1024px){
+    body{
+        padding-top: 105px;
+    }
+}
+
+@media(max-width:425px){
+    body{
+        padding-top: 70px;
+    }
+}

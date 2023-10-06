@@ -1,0 +1,28 @@
+.button {
+    color: #000 ;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+
+    padding: 0px 20px;
+
+    background-color: #F7D22D;
+
+    border-radius: 8px;
+
+    transition: all ease 0.4s;
+    
+    &:hover{
+        background-color: #ceb02e;
+    }
+    &:active{
+        background-color: #ffe056;
+    }
+}
+
+@media(max-width:625px){
+    .button{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

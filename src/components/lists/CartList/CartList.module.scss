@@ -1,0 +1,20 @@
+.container {
+    max-width: 1150px;
+
+    padding: 0 20px;
+
+    margin: 0 auto 40px;
+}
+
+.title {
+    color: #F7D22D;
+    font-size: 36px;
+    font-weight: 800;
+
+    margin-bottom: 33px;
+}
+
+.itemsList {
+    display: flex;
+    flex-direction: column;
+}

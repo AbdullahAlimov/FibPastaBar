@@ -1,0 +1,34 @@
+.container {
+    max-width: 1150px;
+
+    padding: 0 20px;
+
+    margin: 0 auto;
+}
+
+.title {
+    color: #F7D22D;
+    font-size: 30px;
+    font-weight: 700;
+
+    margin-bottom: 25px;
+}
+
+.stocksList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media (max-width:768px){
+    .stocksList {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:620px){
+    .stocksList {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    }
+}

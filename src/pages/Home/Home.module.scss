@@ -1,0 +1,72 @@
+.container{
+    overflow: hidden;
+}
+
+.lists{
+    height: 100%;
+}
+
+.imageLeft{
+    position: fixed;
+    top: 450px;
+    right: 0;
+
+    height: auto;
+    width: 20vw;
+
+    transition: all ease 0.5s;
+
+    & img{
+        transform:rotateY(180deg) rotate(30deg) translate(-65%,-37%);
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &.imageHidden{
+        opacity: 0;
+        visibility: hidden;
+        right: -300px;
+
+        transition: all ease 0.5s;
+    }
+}
+.imageRight{
+    position: fixed;
+    top:450px;
+    left: 0;
+    z-index: -100;
+
+
+    width: 20vw;
+    height: auto;
+
+    transition: all ease 0.5s;
+
+    & img{
+        transform: rotate(25deg) translate(-34%,5%);
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &.imageHidden{
+        opacity: 0;
+        visibility: hidden;
+
+        left: -300px;
+
+        transition: all ease 0.5s;
+    }
+}
+
+@media(max-width:1600px){
+    .imageLeft,.imageRight{
+        width: 16vw;
+    }
+}
+
+@media(max-width:1440px){
+    .imageLeft,.imageRight{
+        visibility: hidden;
+        opacity: 0;
+    }
+}

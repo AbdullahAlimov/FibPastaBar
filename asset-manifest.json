@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FibPastaBar/static/css/main.ee3a8c3a.css",
+    "main.js": "/FibPastaBar/static/js/main.79795b9e.js",
+    "static/media/scrollWoman.png": "/FibPastaBar/static/media/scrollWoman.cc3abd4607f48f00de64.png",
+    "static/media/scrollMan.png": "/FibPastaBar/static/media/scrollMan.cb8ebb2c37dc5da95e1b.png",
+    "static/media/logo.png": "/FibPastaBar/static/media/logo.11251bf2cfbf6ea66df6.png",
+    "static/media/orderAccepted4.jpg": "/FibPastaBar/static/media/orderAccepted4.80aca1ad8f024f0f06e8.jpg",
+    "static/media/empty.jpg": "/FibPastaBar/static/media/empty.2701498716665fbec946.jpg",
+    "static/media/orderAccepted2.jpg": "/FibPastaBar/static/media/orderAccepted2.d3076f2b8df9a0c294d2.jpg",
+    "static/media/orderAccepted3.jpg": "/FibPastaBar/static/media/orderAccepted3.f32c27da6db57ef12711.jpg",
+    "static/media/orderAccepted1.jpg": "/FibPastaBar/static/media/orderAccepted1.7f9eb4a1114f5ac45bdc.jpg",
+    "static/media/fullLogo.png": "/FibPastaBar/static/media/fullLogo.e528461b1b3cddd776f0.png",
+    "static/media/nothing.svg": "/FibPastaBar/static/media/nothing.f6f5bb8c21f52abb7d8945dac0b4dcb1.svg",
+    "static/media/cardInfo.png": "/FibPastaBar/static/media/cardInfo.b223de3436b1661f7d82.png",
+    "index.html": "/FibPastaBar/index.html",
+    "main.ee3a8c3a.css.map": "/FibPastaBar/static/css/main.ee3a8c3a.css.map",
+    "main.79795b9e.js.map": "/FibPastaBar/static/js/main.79795b9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee3a8c3a.css",
+    "static/js/main.79795b9e.js"
+  ]
+}

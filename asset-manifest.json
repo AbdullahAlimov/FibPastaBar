@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FibPastaBar/static/css/main.ee3a8c3a.css",
-    "main.js": "/FibPastaBar/static/js/main.51429aa3.js",
+    "main.js": "/FibPastaBar/static/js/main.956f3606.js",
     "static/media/scrollWoman.png": "/FibPastaBar/static/media/scrollWoman.cc3abd4607f48f00de64.png",
     "static/media/scrollMan.png": "/FibPastaBar/static/media/scrollMan.cb8ebb2c37dc5da95e1b.png",
     "static/media/logo.png": "/FibPastaBar/static/media/logo.11251bf2cfbf6ea66df6.png",
@@ -15,10 +15,10 @@
     "static/media/cardInfo.png": "/FibPastaBar/static/media/cardInfo.b223de3436b1661f7d82.png",
     "index.html": "/FibPastaBar/index.html",
     "main.ee3a8c3a.css.map": "/FibPastaBar/static/css/main.ee3a8c3a.css.map",
-    "main.51429aa3.js.map": "/FibPastaBar/static/js/main.51429aa3.js.map"
+    "main.956f3606.js.map": "/FibPastaBar/static/js/main.956f3606.js.map"
   },
   "entrypoints": [
     "static/css/main.ee3a8c3a.css",
-    "static/js/main.51429aa3.js"
+    "static/js/main.956f3606.js"
   ]
 }

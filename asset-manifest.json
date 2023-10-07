@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FibPastaBar/static/css/main.ff5fc4b7.css",
-    "main.js": "/FibPastaBar/static/js/main.4c278bbb.js",
+    "main.css": "/FibPastaBar/static/css/main.f6ae5497.css",
+    "main.js": "/FibPastaBar/static/js/main.ca114061.js",
     "static/media/scrollWoman.png": "/FibPastaBar/static/media/scrollWoman.cc3abd4607f48f00de64.png",
     "static/media/scrollMan.png": "/FibPastaBar/static/media/scrollMan.cb8ebb2c37dc5da95e1b.png",
     "static/media/logo.png": "/FibPastaBar/static/media/logo.11251bf2cfbf6ea66df6.png",
@@ -14,11 +14,11 @@
     "static/media/nothing.svg": "/FibPastaBar/static/media/nothing.f6f5bb8c21f52abb7d8945dac0b4dcb1.svg",
     "static/media/cardInfo.png": "/FibPastaBar/static/media/cardInfo.b223de3436b1661f7d82.png",
     "index.html": "/FibPastaBar/index.html",
-    "main.ff5fc4b7.css.map": "/FibPastaBar/static/css/main.ff5fc4b7.css.map",
-    "main.4c278bbb.js.map": "/FibPastaBar/static/js/main.4c278bbb.js.map"
+    "main.f6ae5497.css.map": "/FibPastaBar/static/css/main.f6ae5497.css.map",
+    "main.ca114061.js.map": "/FibPastaBar/static/js/main.ca114061.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff5fc4b7.css",
-    "static/js/main.4c278bbb.js"
+    "static/css/main.f6ae5497.css",
+    "static/js/main.ca114061.js"
   ]
 }

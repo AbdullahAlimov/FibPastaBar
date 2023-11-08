@@ -1,4 +1,4 @@
-# FiboPasta Bar
+# FibPastaBar
 
 **Ссылка на сайт (GitHub Pages):** [FiboPasta Bar](https://abdullahalimov.github.io/FibPastaBar/)
 
